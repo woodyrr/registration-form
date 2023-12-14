@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="overflow-hidden">
+    <div class=" flex flex-col justify-center px-[25%] pt-[25%] 2xl:pt-[15%] gap-4">
+        <div class=" bg-[#212936] rounded-2xl flex flex-col items-center gap-8 py-8 border border-[#4D5562]">
+            <!-- step1 -->
+            <div class="stepone w-[90%] flex flex-col gap-6 text-white  ">
+                <div class="flex flex-col gap-6 text-white  p-[15px] " id="register">
+                    <div class="text-[20px]">Register</div>
+                    <div class="flex flex-col gap-2 text-[#E5E7EB]">
+                        <div class="text-[14px]">Name</div>
+                        <input type="text" placeholder="enter your name" name="name"  class="name border-2 border-[#4D5562] py-3 px-4 rounded-xl bg-transparent outline outline-none hover:border-[#652CD1]" required>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="text-[14px]">Email</div>
+                        <input type="text" placeholder="example@gmail.com" name="email" id="email"  class="border-2 border-[#4D5562] py-3 px-4 rounded-xl bg-transparent outline outline-none hover:border-[#652CD1]" required>
+                    </div>
+                </div>
+                <div class=" w-full flex items-center justify-center text-white">
+                    <button type="submit" class="btn1 bg-gradient-to-l from-[#845EEE] to-[#652CD1] rounded-full px-[10%] py-2" >Continue</button>
+                </div>
+            </div>
+            
+            <!-- step 2 -->
+            <div class="steptwo hidden flex flex-col gap-6 text-white w-[90%]">
+                <div class="flex flex-col gap-6 p-[15px] " id="register">
+                    <div class="text-[20px]">Which topic you are intrested in?</div>
+                    <span class="border bro1 border-[#A1A1A9] py-3 px-4 rounded-xl bg-[#4D5562] text-[14px] cursor-pointer">Software Development</span>
+                    <span class="border bro2 border-[#A1A1A9] py-3 px-4 rounded-xl bg-[#4D5562] text-[14px] cursor-pointer">User Experience</span>
+                    <span class="border bro3 border-[#A1A1A9] py-3 px-4 rounded-xl bg-[#4D5562] text-[14px] cursor-pointer">Graphic Design</span>
+                </div>
+                <div class=" w-full flex items-center justify-center text-white">
+                    <button type="button" class="bg-gradient-to-l from-[#845EEE] to-[#652CD1] rounded-full px-[10%] py-2 btn2">Continue</button>
+                </div>
+            </div>
+            <!-- step-3 -->
+            <div class="step3 hidden flex flex-col gap-6 text-white w-[90%]">
+                <div class="flex flex-col gap-6 p-[15px] " id="register">
+                    <div class="text-[20px]">Summary</div>
+                    <div class="flex gap-2">
+                        <div>Name:</div>
+                        <div class="inname"></div>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>Email:</div>
+                        <div class="inemail"></div>
+                    </div>
+                    <div>
+                        <div>Topic:</div>
+                        <ul  class="topic flex flex-col">
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class=" w-full flex items-center justify-center text-white">
+                    <button type="button" class="bg-gradient-to-l from-[#845EEE] to-[#652CD1] rounded-full px-[10%] py-2 btn3">Continue</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="step flex text-center justify-center items-center gap-4">
+            <div class="px-2 text-[#4D5562]">step 1 of 3</div>
+            <div class="bg-[#4D5562] rounded-full w-5 h-5 flex justify-center items-center">
+                <div class="dot1  border-none rounded-full w-3.5 h-3.5 bg-[#652CD1] "></div>
+            </div>
+            <div class="out2 rounded-full w-5 h-5 flex justify-center items-center">
+                <div class="dot2  border-none rounded-full w-3.5 h-3.5 bg-[#4D5562]"></div>
+            </div>
+            <div class="out3 rounded-full w-5 h-5 flex justify-center items-center">
+                <div class="dot3  border-none rounded-full w-3.5 h-3.5 bg-[#4D5562]"></div>
+            </div>
+        </div>
+    </div>
+        <div>
+            <img src="images/blur-radial.svg" alt="" class="absolute top-[-40%] left-[-40%] w-[70%]">
+        </div>
+        <div>
+            <img src="images/blur-radial.svg" alt="" class="absolute bottom-[-40%] right-[-40%] w-[70%]">
+        </div>
+   <script src="main.js"></script>
+</body>
+</html>

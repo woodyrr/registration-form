@@ -1,0 +1,45 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #121826;
+    background-image: radial-gradient(#121826 1px,transparent 0),radial-gradient(#121826 1px,transparent 0);
+}
+button{
+    background:linear-gradient() ;
+}
+
+.bro1.active{
+    background-color: #652CD1;
+}
+.bro2.active{
+    background-color: #652CD1;
+}
+.bro3.active{
+    background-color: #652CD1;
+}
+
+.out2.active{
+    background-color: #4D5562;
+}
+.out3.active{
+    background-color: #4D5562;
+}
+.dot2.active{
+    background-color: #652CD1;
+}
+.dot3.active{
+    background-color: #652CD1;
+}
